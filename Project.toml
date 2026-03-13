@@ -1,6 +1,6 @@
 name = "FFMPEG_nogpl_jll"
 uuid = "a6892c6b-5768-548c-b024-ff8dabf482c5"
-version = "8.0.1+0"
+version = "8.0.1+1"
 
 [deps]
 LAME_jll = "c1c5ebd0-6772-5130-a774-d5fcae4a789d"
@@ -16,6 +16,7 @@ Bzip2_jll = "6e34b625-4abd-537c-b88f-471c36dfa7a0"
 libass_jll = "0ac62f75-1d6f-5e53-bd7c-93b484bb37c0"
 Ogg_jll = "e7412a2a-1a6e-54c0-be00-318e2571c051"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+libva_jll = "9a156e7d-b971-5f62-b2c9-67348b8fb97c"
 OpenSSL_jll = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
 PCRE2_jll = "efcefdf7-47ab-520b-bdef-62a2eaa19f15"
 

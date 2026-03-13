@@ -13,6 +13,7 @@ using Zlib_jll
 using OpenSSL_jll
 using Opus_jll
 using PCRE2_jll
+using libva_jll
 JLLWrappers.@generate_wrapper_header("FFMPEG_nogpl")
 JLLWrappers.@declare_library_product(libavcodec, "libavcodec.so.62")
 JLLWrappers.@declare_library_product(libavdevice, "libavdevice.so.62")
@@ -24,7 +25,7 @@ JLLWrappers.@declare_library_product(libswscale, "libswscale.so.9")
 JLLWrappers.@declare_executable_product(ffmpeg)
 JLLWrappers.@declare_executable_product(ffprobe)
 function __init__()
-    JLLWrappers.@generate_init_header(libass_jll, FriBidi_jll, FreeType2_jll, LAME_jll, libvorbis_jll, libaom_jll, Ogg_jll, Bzip2_jll, Zlib_jll, OpenSSL_jll, Opus_jll, PCRE2_jll)
+    JLLWrappers.@generate_init_header(libass_jll, FriBidi_jll, FreeType2_jll, LAME_jll, libvorbis_jll, libaom_jll, Ogg_jll, Bzip2_jll, Zlib_jll, OpenSSL_jll, Opus_jll, PCRE2_jll, libva_jll)
     JLLWrappers.@init_library_product(
         libavcodec,
         "lib/libavcodec.so",
