@@ -1,6 +1,6 @@
 name = "FFMPEG_nogpl_jll"
 uuid = "a6892c6b-5768-548c-b024-ff8dabf482c5"
-version = "8.0.1+1"
+version = "8.1.0+0"
 
 [deps]
 LAME_jll = "c1c5ebd0-6772-5130-a774-d5fcae4a789d"

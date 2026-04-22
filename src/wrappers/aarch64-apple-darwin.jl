@@ -27,43 +27,43 @@ function __init__()
     JLLWrappers.@generate_init_header(libass_jll, FriBidi_jll, FreeType2_jll, LAME_jll, libvorbis_jll, libaom_jll, Ogg_jll, Bzip2_jll, Zlib_jll, OpenSSL_jll, Opus_jll, PCRE2_jll)
     JLLWrappers.@init_library_product(
         libavcodec,
-        "lib/libavcodec.62.11.100.dylib",
+        "lib/libavcodec.62.28.100.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libavdevice,
-        "lib/libavdevice.62.1.100.dylib",
+        "lib/libavdevice.62.3.100.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libavfilter,
-        "lib/libavfilter.11.4.100.dylib",
+        "lib/libavfilter.11.14.100.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libavformat,
-        "lib/libavformat.62.3.100.dylib",
+        "lib/libavformat.62.12.100.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libavutil,
-        "lib/libavutil.60.8.100.dylib",
+        "lib/libavutil.60.26.100.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libswresample,
-        "lib/libswresample.6.1.100.dylib",
+        "lib/libswresample.6.3.100.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libswscale,
-        "lib/libswscale.9.1.100.dylib",
+        "lib/libswscale.9.5.100.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
