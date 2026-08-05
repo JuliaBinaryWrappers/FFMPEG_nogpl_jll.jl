@@ -14,56 +14,56 @@ using OpenSSL_jll
 using Opus_jll
 using PCRE2_jll
 JLLWrappers.@generate_wrapper_header("FFMPEG_nogpl")
-JLLWrappers.@declare_library_product(libavcodec, "@rpath/libavcodec.62.dylib")
-JLLWrappers.@declare_library_product(libavdevice, "@rpath/libavdevice.62.dylib")
-JLLWrappers.@declare_library_product(libavfilter, "@rpath/libavfilter.11.dylib")
-JLLWrappers.@declare_library_product(libavformat, "@rpath/libavformat.62.dylib")
-JLLWrappers.@declare_library_product(libavutil, "@rpath/libavutil.60.dylib")
-JLLWrappers.@declare_library_product(libswresample, "@rpath/libswresample.6.dylib")
-JLLWrappers.@declare_library_product(libswscale, "@rpath/libswscale.9.dylib")
+JLLWrappers.@declare_library_product(libavcodec, "@rpath/libavcodec.63.dylib")
+JLLWrappers.@declare_library_product(libavdevice, "@rpath/libavdevice.63.dylib")
+JLLWrappers.@declare_library_product(libavfilter, "@rpath/libavfilter.12.dylib")
+JLLWrappers.@declare_library_product(libavformat, "@rpath/libavformat.63.dylib")
+JLLWrappers.@declare_library_product(libavutil, "@rpath/libavutil.61.dylib")
+JLLWrappers.@declare_library_product(libswresample, "@rpath/libswresample.7.dylib")
+JLLWrappers.@declare_library_product(libswscale, "@rpath/libswscale.10.dylib")
 JLLWrappers.@declare_executable_product(ffmpeg)
 JLLWrappers.@declare_executable_product(ffprobe)
 function __init__()
     JLLWrappers.@generate_init_header(libass_jll, FriBidi_jll, FreeType2_jll, LAME_jll, libvorbis_jll, libaom_jll, Ogg_jll, Bzip2_jll, Zlib_jll, OpenSSL_jll, Opus_jll, PCRE2_jll)
     JLLWrappers.@init_library_product(
         libavcodec,
-        "lib/libavcodec.62.28.102.dylib",
+        "lib/libavcodec.63.1.100.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libavdevice,
-        "lib/libavdevice.62.3.102.dylib",
+        "lib/libavdevice.63.1.100.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libavfilter,
-        "lib/libavfilter.11.14.102.dylib",
+        "lib/libavfilter.12.1.100.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libavformat,
-        "lib/libavformat.62.12.102.dylib",
+        "lib/libavformat.63.1.100.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libavutil,
-        "lib/libavutil.60.26.102.dylib",
+        "lib/libavutil.61.1.100.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libswresample,
-        "lib/libswresample.6.3.102.dylib",
+        "lib/libswresample.7.1.100.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libswscale,
-        "lib/libswscale.9.5.102.dylib",
+        "lib/libswscale.10.1.100.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
