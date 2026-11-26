@@ -15,6 +15,8 @@ using Opus_jll
 using PCRE2_jll
 using libva_jll
 JLLWrappers.@generate_wrapper_header("FFMPEG_nogpl")
+JLLWrappers.@declare_executable_product(ffmpeg)
+JLLWrappers.@declare_executable_product(ffprobe)
 JLLWrappers.@declare_library_product(libavcodec, "libavcodec.so.63")
 JLLWrappers.@declare_library_product(libavdevice, "libavdevice.so.63")
 JLLWrappers.@declare_library_product(libavfilter, "libavfilter.so.12")
@@ -22,10 +24,18 @@ JLLWrappers.@declare_library_product(libavformat, "libavformat.so.63")
 JLLWrappers.@declare_library_product(libavutil, "libavutil.so.61")
 JLLWrappers.@declare_library_product(libswresample, "libswresample.so.7")
 JLLWrappers.@declare_library_product(libswscale, "libswscale.so.10")
-JLLWrappers.@declare_executable_product(ffmpeg)
-JLLWrappers.@declare_executable_product(ffprobe)
 function __init__()
     JLLWrappers.@generate_init_header(libass_jll, FriBidi_jll, FreeType2_jll, LAME_jll, libvorbis_jll, libaom_jll, Ogg_jll, Bzip2_jll, Zlib_jll, OpenSSL_jll, Opus_jll, PCRE2_jll, libva_jll)
+    JLLWrappers.@init_executable_product(
+        ffmpeg,
+        "bin/ffmpeg",
+    )
+
+    JLLWrappers.@init_executable_product(
+        ffprobe,
+        "bin/ffprobe",
+    )
+
     JLLWrappers.@init_library_product(
         libavcodec,
         "lib/libavcodec.so",
@@ -66,16 +76,6 @@ function __init__()
         libswscale,
         "lib/libswscale.so",
         RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_executable_product(
-        ffmpeg,
-        "bin/ffmpeg",
-    )
-
-    JLLWrappers.@init_executable_product(
-        ffprobe,
-        "bin/ffprobe",
     )
 
     JLLWrappers.@generate_init_footer()
