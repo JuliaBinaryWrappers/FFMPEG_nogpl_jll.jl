@@ -1,10 +1,10 @@
 [[FFMPEG_nogpl]]
 arch = "aarch64"
-git-tree-sha1 = "d2bdc5cc39a1482519e7b39dac4614a6f5308eba"
+git-tree-sha1 = "1d4deb1c7ba10c578902a4382803b9b2f8aece4b"
 os = "macos"
 
     [[FFMPEG_nogpl.download]]
-    sha256 = "1a88257ed2004b780f0712cae58db10cf47c2d7982827dd028479b9f24011ad3"
+    sha256 = "153e12e78e175c2db8cda2788c03b2882a7d70c0d98fc8215f65ce1d58fa0b3a"
     url = "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.aarch64-apple-darwin.tar.gz"
 [[FFMPEG_nogpl]]
 arch = "aarch64"
@@ -92,11 +92,11 @@ os = "linux"
     url = "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.i686-linux-musl.tar.gz"
 [[FFMPEG_nogpl]]
 arch = "i686"
-git-tree-sha1 = "081c9d22bb514675ce07f10742454560494fc7d8"
+git-tree-sha1 = "c0f8215ed49dd3f3098008a5fb636a6ba1b58855"
 os = "windows"
 
     [[FFMPEG_nogpl.download]]
-    sha256 = "b6d05d9c3c2a2be96ce02bac7b73be55341c0173d6a4965cefa7eac857f523b1"
+    sha256 = "1b8fd5bae6313af291e6870c3c3b599f83a1730afb9b4ef0cceaf92d6df1e648"
     url = "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.i686-w64-mingw32.tar.gz"
 [[FFMPEG_nogpl]]
 arch = "powerpc64le"
@@ -118,11 +118,11 @@ os = "linux"
     url = "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.riscv64-linux-gnu.tar.gz"
 [[FFMPEG_nogpl]]
 arch = "x86_64"
-git-tree-sha1 = "9804f3fa70b60780c95f4b467d18a171db236158"
+git-tree-sha1 = "db2c40436e13f3b1df683b98685e7ebd6b69426b"
 os = "macos"
 
     [[FFMPEG_nogpl.download]]
-    sha256 = "2c00f7f6ab5839ae8edbef73ffb22aacac24e3aee0d632671778bca41be85ef1"
+    sha256 = "690233f9d5603fd7edfdada6f7de893ad0c41142dcac4a089e31baeb1874390d"
     url = "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.x86_64-apple-darwin.tar.gz"
 [[FFMPEG_nogpl]]
 arch = "x86_64"
@@ -152,9 +152,9 @@ os = "freebsd"
     url = "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.x86_64-unknown-freebsd.tar.gz"
 [[FFMPEG_nogpl]]
 arch = "x86_64"
-git-tree-sha1 = "997c775101a5d6096da7cadd5bf3443ae51a3163"
+git-tree-sha1 = "e1acae3f12c176e5b0b72643406c2ee50aa9c8bb"
 os = "windows"
 
     [[FFMPEG_nogpl.download]]
-    sha256 = "c78b2f039c3ffc112946de4f54ee6af76ca02cd7a5b243a9fe6dbedbcae70c0e"
+    sha256 = "a77830cad26b142e0f00e2a8a82e0600913a62a7d5aab683a17ccd97ab5afd27"
     url = "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.x86_64-w64-mingw32.tar.gz"

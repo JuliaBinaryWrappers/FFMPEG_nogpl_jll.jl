@@ -22,7 +22,7 @@ Bzip2_jll = "6e34b625-4abd-537c-b88f-471c36dfa7a0"
 
 [compat]
 Libdl = "< 0.0.1, 1"
-julia = "1.6"
+julia = "1.10"
 JLLWrappers = "1.7.0"
 Zlib_jll = "1.2.12"
 FreeType2_jll = "2.13.4"
